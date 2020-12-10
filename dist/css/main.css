@@ -30,6 +30,10 @@ body {
   justify-content: space-around;
 }
 
+.just-end {
+  justify-content: flex-end;
+}
+
 .align-center {
   align-items: center;
 }
@@ -88,6 +92,18 @@ main .banner {
   min-width: 100px;
   height: 600px;
   background-image: url(../../images/hero-banner.jpg);
-  background-position: cover;
+  background-position: top center;
   background-repeat: no-repeat;
+}
+main .banner .essentials {
+  color: #fff;
+}
+main .banner .essentials h2 {
+  font-size: 28px;
+}
+main .banner .essentials h3 {
+  font-size: 20px;
+}
+main .banner .essentials li {
+  font-size: 16px;
 }
