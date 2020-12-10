@@ -25,9 +25,39 @@ main {
                 line-height: 40px;
                 font-weight: 400;
             }
-            li {
+            ul {
+                
+                li {
                 font-size: 16px;
                 line-height: 40px;
+                }
+            }
+            .btn-trial {
+                margin-top: 20px;
+                padding: 8px 18px;
+                background-color: $btn-trial;
+                color: $white;
+                width: 220px;
+                &:hover {
+                    cursor: pointer;
+                }
+                .btn-txt {
+                    width: 70%;
+                    padding-right: 20px;
+                    border-right: 1px solid $white;
+                }
+                .download {
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+                .info {
+                    font-size: 12px;
+                }
+                i {
+                    color: $white;
+                    font-size: 28px;
+                    padding-left: 20px;
+                }
             }
         }
 

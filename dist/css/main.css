@@ -115,9 +115,36 @@ main .banner .essentials h3 {
   line-height: 40px;
   font-weight: 400;
 }
-main .banner .essentials li {
+main .banner .essentials ul li {
   font-size: 16px;
   line-height: 40px;
+}
+main .banner .essentials .btn-trial {
+  margin-top: 20px;
+  padding: 8px 18px;
+  background-color: #5c5c5a;
+  color: #fff;
+  width: 220px;
+}
+main .banner .essentials .btn-trial:hover {
+  cursor: pointer;
+}
+main .banner .essentials .btn-trial .btn-txt {
+  width: 70%;
+  padding-right: 20px;
+  border-right: 1px solid #fff;
+}
+main .banner .essentials .btn-trial .download {
+  font-size: 14px;
+  font-weight: 700;
+}
+main .banner .essentials .btn-trial .info {
+  font-size: 12px;
+}
+main .banner .essentials .btn-trial i {
+  color: #fff;
+  font-size: 28px;
+  padding-left: 20px;
 }
 main .banner .limited-offer {
   background-color: #000;
