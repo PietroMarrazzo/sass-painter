@@ -78,14 +78,17 @@ header .container .navbar-header {
   color: #fff;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 20px 0px;
+  padding: 22px 0px;
 }
 
 header .container .navbar-header img {
-  width: 100px;
+  width: 95px;
+  margin-right: 20px;
 }
 
 header .container .navbar-header ul li {
-  padding: 0px 20px;
+  padding: 0px 30px;
+  font-weight: 600;
+  font-size: 13px;
 }
 
