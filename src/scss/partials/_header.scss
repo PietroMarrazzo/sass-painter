@@ -27,7 +27,22 @@ header {
 
         // navbar
         .navbar-header {
+            color: $white;
+            justify-content: flex-start;
+            align-items: flex-end;
+            padding: 20px 0px;
 
+            // logo header
+            img {
+                width: 100px;
+            }
+
+            // list tools
+            ul {
+                li {
+                    padding: 0px 20px;
+                }
+            }
         }
     }
 
