@@ -46,7 +46,31 @@ body {
   position: absolute;
 }
 
+header {
+  background-color: #222222;
+}
+
 header .container .info-header {
   justify-content: flex-end;
+  align-items: center;
+  padding-top: 5px;
+  color: #fff;
+}
+
+header .container .info-header ul li {
+  padding-left: 30px;
+}
+
+header .container .info-header ul li:not(:last-child) {
+  color: #9e9e9e;
+}
+
+header .container .info-header ul li i {
+  color: #009cff;
+}
+
+header .container .info-header ul li a {
+  text-decoration: none;
+  color: #9e9e9e;
 }
 

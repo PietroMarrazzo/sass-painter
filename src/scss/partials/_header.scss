@@ -1,8 +1,33 @@
 // info header 
 header {
+    background-color: $bg-dark;
     .container {
+        // info header
         .info-header {
             justify-content: flex-end;
+            align-items: center;
+            padding-top: 5px;
+            color: $white;
+            ul {
+                li {
+                    padding-left: 30px;
+                    &:not(:last-child) {
+                        color: $gray;
+                    }
+                    i {
+                        color:#009cff;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: $gray;
+                    }
+                }
+            }
+        }
+
+        // navbar
+        .navbar-header {
+
         }
     }
 
