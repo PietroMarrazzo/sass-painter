@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.just-between {
+  justify-content: space-between;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.just-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.ul-nostyle {
+  list-style: none;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+header .container .info-header {
+  justify-content: flex-end;
+}
+

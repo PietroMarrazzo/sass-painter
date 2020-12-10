@@ -2,13 +2,20 @@
 //               APP
 //  **************************** //
 // VAR
+@import "partials/variables";
 
 // COMMONS
+@import "partials/commons";
 
 // UTILITIES
-// colors
-@import "_color_bg_txt";
+@import "partials/utilities_flex";
+@import "partials/positions";
+
 // HEADER
+@import "partials/header"
+
+// header navbar 
+
 
 // MAIN
 
