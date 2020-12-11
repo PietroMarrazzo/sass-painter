@@ -1,0 +1,39 @@
+.beginner-banner {
+    height: 850px;
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+
+    .beginner-box {
+        padding: 50px 100px 70px 100px;
+        color: $white;
+        text-align: center;
+
+        h2 {
+            font-size: 30px;
+            line-height: 50px;
+        }
+
+        h4 {
+            font-size: 14px;
+            line-height: 50px;
+            padding-bottom: 50px;
+        }
+
+        a {
+            font-size: 16px;
+            color: $white;
+            text-decoration: none;
+        }
+
+        .screen-video {
+            width: 900px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%); 
+            border-radius: 10px;  
+        }
+    }
+}

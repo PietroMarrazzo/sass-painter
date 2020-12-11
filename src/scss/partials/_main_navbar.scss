@@ -1,0 +1,16 @@
+.bg-gray {
+    background-color: $bg-gray;
+    .navbar-list {
+        text-transform: uppercase;
+
+        li {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 10px 20px;
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(238, 238, 238);
+            }
+        }
+    }
+}
