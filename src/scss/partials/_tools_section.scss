@@ -1,0 +1,61 @@
+.bg-dark{
+    background-color: $bg-darker;
+    color: $white;
+    padding: 60px 0px;
+    text-align: center;
+    h2 {
+        padding-bottom: 30px;
+        line-height: 50px;
+    }
+
+    h4 {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    img {
+        padding-top: 60px;
+        width: 770px;
+        margin: 0px auto;
+    }
+
+    .box-experiment {
+        padding-top: 70px;
+        text-align: left;
+        align-items: center;
+        h3 {
+            font-size: 18px;
+            line-height: 30px;
+            padding-bottom: 15px;
+        }
+        h4 {
+            line-height: 30px;
+            font-size: 16px;
+        }
+
+        img {
+            height: 570px;
+            margin-left: 40px;
+        }
+    }
+
+    .box-industry {
+        padding-top: 70px;
+        text-align: left;
+        align-items: center;
+        h3 {
+            font-size: 18px;
+            line-height: 30px;
+            padding-bottom: 15px;
+        }
+        h4 {
+            line-height: 30px;
+            font-size: 16px;
+        }
+
+        img {
+            height: 570px;
+            margin-right: 40px;
+        }
+    }
+}

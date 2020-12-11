@@ -295,6 +295,62 @@ main .banner .limited-offer .offer-time h4 {
   background-size: cover;
 }
 
+.bg-dark {
+  background-color: #222222;
+  color: #fff;
+  padding: 60px 0px;
+  text-align: center;
+}
+.bg-dark h2 {
+  padding-bottom: 30px;
+  line-height: 50px;
+}
+.bg-dark h4 {
+  line-height: 30px;
+  font-size: 16px;
+}
+.bg-dark img {
+  padding-top: 60px;
+  width: 770px;
+  margin: 0px auto;
+}
+.bg-dark .box-experiment {
+  padding-top: 70px;
+  text-align: left;
+  align-items: center;
+}
+.bg-dark .box-experiment h3 {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+.bg-dark .box-experiment h4 {
+  line-height: 30px;
+  font-size: 16px;
+}
+.bg-dark .box-experiment img {
+  height: 570px;
+  margin-left: 40px;
+}
+.bg-dark .box-industry {
+  padding-top: 70px;
+  text-align: left;
+  align-items: center;
+}
+.bg-dark .box-industry h3 {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+.bg-dark .box-industry h4 {
+  line-height: 30px;
+  font-size: 16px;
+}
+.bg-dark .box-industry img {
+  height: 570px;
+  margin-right: 40px;
+}
+
 .img-fixed-02 {
   height: 650px;
   background-image: url(../../images/image-bg-01.jpg);
