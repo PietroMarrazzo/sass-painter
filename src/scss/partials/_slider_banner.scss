@@ -4,10 +4,20 @@
     .slider-section {
         text-align: center;
         padding-top: 60px;
-        line-height: 50px;
     
         h2 {
             padding-bottom: 30px;
+            line-height: 50px;
+        }
+
+        h4 {
+            line-height: 30px;
+            font-size: 16px;
+        }
+
+        img {
+            width: 900px;
+            margin-top: 80px;
         }
     }
 }
