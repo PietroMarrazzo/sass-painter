@@ -51,7 +51,7 @@ body {
 }
 
 header {
-  background-color: #222222;
+  background-color: #101010;
 }
 header .container .info-header {
   justify-content: flex-end;
@@ -182,4 +182,22 @@ main .banner .limited-offer .btn-buy {
 }
 main .banner .limited-offer .btn-buy:hover {
   cursor: pointer;
+}
+main .banner .limited-offer .offer-time {
+  background-color: #fff;
+  color: #000;
+  margin: 40px 0px 0px 15px;
+  padding: 10px 0px 10px 10px;
+  width: 90%;
+}
+main .banner .limited-offer .offer-time h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+main .banner .limited-offer .offer-time h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
 }

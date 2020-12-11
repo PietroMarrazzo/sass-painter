@@ -10,7 +10,8 @@ $btn-buy: dodgerblue;
 
 // color bg
 $bg-gray:#e6e6e6;
-$bg_dark: #222222;
+$bg-dark: #101010;
+$bg-darker: #161616;
 
 // text
 $font-14: 14px;
@@ -18,6 +19,8 @@ $txt-opacity: .6;
 
 $trial-font-size: 28px;
 
-// font families
+// font families and weight
 $font-lato: 'Lato', sans-serif;
 $font-noto: 'Noto Sans', sans-serif;
+$fontlight: 400;
+$fontbold: 700;
