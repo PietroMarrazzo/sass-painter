@@ -1,0 +1,13 @@
+.bg-slider {
+    background-color: $bg-slider;
+
+    .slider-section {
+        text-align: center;
+        padding-top: 60px;
+        line-height: 50px;
+    
+        h2 {
+            padding-bottom: 30px;
+        }
+    }
+}

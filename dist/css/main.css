@@ -14,6 +14,16 @@ body {
   margin: auto;
 }
 
+.container1000 {
+  width: 1000px;
+  margin: auto;
+}
+
+h2.banner-title {
+  font-size: 30px;
+  line-height: 50px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -230,7 +240,7 @@ main .banner .limited-offer .offer-time h4 {
      object-fit: cover;
 }
 .beginner-banner .beginner-box {
-  padding: 50px 100px 70px 100px;
+  padding: 50px 70px;
   color: #fff;
   text-align: center;
 }
@@ -254,4 +264,16 @@ main .banner .limited-offer .offer-time h4 {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
+}
+
+.bg-slider {
+  background-color: #ffffff;
+}
+.bg-slider .slider-section {
+  text-align: center;
+  padding-top: 60px;
+  line-height: 50px;
+}
+.bg-slider .slider-section h2 {
+  padding-bottom: 30px;
 }
