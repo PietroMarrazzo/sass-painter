@@ -271,7 +271,7 @@ main .banner .limited-offer .offer-time h4 {
 }
 .bg-slider .slider-section {
   text-align: center;
-  padding-top: 60px;
+  padding: 60px 0px;
 }
 .bg-slider .slider-section h2 {
   padding-bottom: 30px;
@@ -284,4 +284,22 @@ main .banner .limited-offer .offer-time h4 {
 .bg-slider .slider-section img {
   width: 900px;
   margin-top: 80px;
+}
+
+.img-fixed-01 {
+  height: 650px;
+  background-image: url(../../images/image-bg-02.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.img-fixed-02 {
+  height: 650px;
+  background-image: url(../../images/image-bg-01.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }

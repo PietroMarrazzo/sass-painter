@@ -7,15 +7,15 @@
 // COMMONS
 @import "partials/commons";
 
-// UTILITIES
+// ************ UTILITIES
 @import "partials/utilities_colors.scss";
 @import "partials/utilities_flex";
 @import "partials/positions";
 
-// HEADER
+// ************ HEADER
 @import "partials/header";
 
-// MAIN
+// ************ MAIN
 // banner
 @import "partials/banner";
 
@@ -28,5 +28,15 @@
 // slider section
 @import "partials/slider_banner";
 
+// img fixed 1
+@import "partials/img_fixed1";
 
-// FOOTER
+// tools section
+@import "partials/tools_section";
+
+// img fixed 2
+@import "partials/img_fixed2";
+
+
+
+//**************  FOOTER
